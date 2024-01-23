@@ -1,13 +1,49 @@
 .header{
   position: absolute;
-  right: 15cm;
+  right: 16cm;
   border: 0cm;
   padding: 0%;
-  background-color: rgb(0, 42, 255);
+  background-color: rgb(240, 241, 248);
 }
 
 .container{
-  padding: 16px;
-
+   display: grid;
+   position: absolute;
+   top: 3cm;
+   right: 15cm;
+   height: 10cm;
+  padding: 6px;
     
+}
+.container1{
+    display: grid;
+    position: absolute;
+    top: 3cm;
+    right: 15cm;
+    height: 5cm;
+   padding: 16px;
+     
+ }
+.signin{
+    display:grid;
+  position: absolute;
+  right: 15.4cm;
+  top: 13cm;
+}
+.signup{
+    display:grid;
+  position: absolute;
+  right: 15.9cm;
+  top: 8.5cm;
+}
+a{
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
 }
