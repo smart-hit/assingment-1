@@ -1,0 +1,52 @@
+@media only screen and (min-width:425px){
+.container{
+    border: solid black;
+    border-radius: 1px;
+    width: fit-content;
+    padding: 10px;
+   position: absolute;
+   top: 15%;
+   right: 38%;
+   background-color: blanchedalmond;
+}
+.interest-con{
+    
+    padding: 30px; 
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    
+}
+.result{
+    padding: 30px;
+}
+}
+@media only screen and (max-width:426px){
+    .container{
+        border: solid black;
+        border-radius: 1px;
+        width: fit-content;
+        padding: 10px;
+       position: absolute;
+       top: 6%;
+       right: 6%;
+       background-color: blanchedalmond;
+    }
+    .interest-con{
+        
+        padding: 20px; 
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        
+    }
+    .result{
+        padding: 30px;
+    }
+    }
