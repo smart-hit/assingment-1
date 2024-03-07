@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(249, 73, 73);
+}
+@media only screen and (max-width:1440px) {
+    
+
+.main{
+    border: solid black;
+    border-radius: 1px;
+    width: fit-content;
+    position: absolute;
+    top: 30%;
+    right: 32%;
+    background-color: black;
+    
+}
+    .container{
+width: 300px;
+}
+.side1{
+    float:left;
+}
+.side2{
+    float: right;
+}
+.button1{
+    padding: 40px;
+}
+h3{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+}
+@media only screen and (max-width:768px) {
+    
+
+    .main{
+        border: solid black;
+        border-radius: 1px;
+        width: fit-content;
+        position: absolute;
+        top: 30%;
+        right: 22%;
+        background-color: black;
+        
+    }
+        .container{
+    width: 300px;
+    }
+    .side1{
+        float:left;
+    }
+    .side2{
+        float: right;
+    }
+    .button1{
+        padding: 40px;
+    }
+    h3{
+        color: aliceblue;
+    }
+    p{
+        color: aliceblue;
+    }
+    }
+    @media only screen and (max-width:426px) {
+    
+
+        .main{
+            border: solid black;
+            border-radius: 1px;
+            width: fit-content;
+            position: absolute;
+            top: 30%;
+            right: 0%;
+            background-color: black;
+            
+        }
+            .container{
+        width: 300px;
+        }
+        .side1{
+            float:left;
+        }
+        .side2{
+            float: right;
+        }
+        .button1{
+            padding: 40px;
+        }
+        h3{
+            color: aliceblue;
+        }
+        p{
+            color: aliceblue;
+        }
+        
+        }
